@@ -1,0 +1,32 @@
+/* Reset css */
+:root{
+    --primary-font: 'Josefin Sans', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p,small{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+.form-control:focus,textarea:focus,select:focus,input:focus{
+    box-shadow: none;
+    border-color: initial;
+}
+
+/* Reset css end */
+body{
+    font-family: var(--primary-font);
+}
+p{
+    font-family: var(--body-font);
+}
